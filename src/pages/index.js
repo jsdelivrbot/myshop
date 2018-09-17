@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => (
             className="Product snipcart-add-item"
             data-item-id={product.id}
             data-item-price={product.price}
-            data-item-image={product.image}
+            data-item-image={product.image.url}
             data-item-name={product.name}
             data-item-url={`/`}
           >
