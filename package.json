@@ -1,0 +1,27 @@
+{
+  "name": "datocms-snipcart-gatsby-example",
+  "description": "An example project to demonstrate how you can integrate Gatsby, Snipcart and DatoCMS",
+  "version": "1.0.0",
+  "author": "Stefano Verna <s.verna@datocms.com>",
+  "dependencies": {
+    "datocms-client": "^0.6.3",
+    "gatsby": "^1.9.247",
+    "gatsby-image": "^1.0.55",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "1.0.26",
+    "gatsby-plugin-snipcart": "^1.0.6",
+    "gatsby-source-datocms": "^1.1.14",
+    "react-helmet": "^5.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
